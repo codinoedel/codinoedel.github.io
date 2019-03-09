@@ -1,7 +1,11 @@
 // Skill level
-const BEGINNER = 1;
-const INTERMEDIARY = 2;
-const EXPERT = 3;
+const BEGINNER     = 1;
+const INTERMEDIATE = 2;
+const EXPERT       = 3;
+
+export const SKILL_LEVELS = [
+  BEGINNER, INTERMEDIATE, EXPERT
+];
 
 // Importance
 const HIGH = 3;
@@ -14,7 +18,6 @@ const STALE = 'stale';
 
 // Categories
 const LANGUAGES = 'Languages';
-const SYSTEMS   = 'Systems';
 const LIBRARIES = 'Libraries';
 const TOOLS     = 'Tools';
 const SERVICES  = 'Services';
@@ -45,93 +48,93 @@ export const skills = [
   {
     name:       'Java',
     category:   LANGUAGES,
-    freshness   STALE,
+    freshness:  STALE,
     importance: MEDIUM,
-    level:      INTERMEDIARY,
+    level:      INTERMEDIATE,
   },
   {
     name:       'C#',
     category:   LANGUAGES,
-    freshness   STALE,
+    freshness:  STALE,
     importance: MEDIUM,
-    level:      INTERMEDIARY,
+    level:      INTERMEDIATE,
   },
   {
     name:       'Python',
     category:   LANGUAGES,
     freshness:  STALE,
     importance: MEDIUM,
-    level:      INTERMEDIARY,
+    level:      INTERMEDIATE,
   },
   {
     name:       'C++',
     category:   LANGUAGES,
-    freshness   STALE,
+    freshness:  STALE,
     importance: MEDIUM,
     level:      BEGINNER,
   },
   {
     name:       'C',
     category:   LANGUAGES,
-    freshness   STALE,
+    freshness:  STALE,
     importance: MEDIUM,
-    level:      INTERMEDIARY,
+    level:      INTERMEDIATE,
   },
   {
     name:       'SQL (MSSQL, MySQL, PostGres)',
     category:   LANGUAGES,
-    freshness   STALE,
+    freshness:  STALE,
     importance: LOW,
-    level:      INTERMEDIARY,
+    level:      INTERMEDIATE,
   },
 
   // Libraries
   {
     name:       'React',
     category:   LIBRARIES,
-    freshness   FRESH,
+    freshness:  FRESH,
     importance: HIGH,
     level:      EXPERT,
   },
   {
     name:       'Redux',
     category:   LIBRARIES,
-    freshness   FRESH,
+    freshness:  FRESH,
     importance: HIGH,
     level:      EXPERT,
   },
   {
     name:       'Angular 2',
     category:   LIBRARIES,
-    freshness   STALE,
+    freshness:  STALE,
     importance: HIGH,
     level:      BEGINNER,
   },
   {
     name:       'Node.js',
     category:   LIBRARIES,
-    freshness   FRESH,
+    freshness:  FRESH,
     importance: HIGH,
     level:      EXPERT,
   },
   {
     name:       'AWS JavaScript SDK',
     category:   LIBRARIES,
-    freshness   FRESH,
+    freshness:  FRESH,
     importance: MEDIUM,
     level:      EXPERT,
   },
   {
     name:       'Twilio JavaScript SDK',
     category:   LIBRARIES,
-    freshness   FRESH,
+    freshness:  FRESH,
     importance: MEDIUM,
     level:      EXPERT,
   },
   {
     name:       'ASP.NET',
     category:   LIBRARIES,
-    freshness   STALE,
+    freshness:  STALE,
     importance: LOW,
     level:      BEGINNER,
   },

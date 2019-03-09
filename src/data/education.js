@@ -10,4 +10,4 @@ export const education = [
   }
 ];
 
-export default eductation;
+export default education;

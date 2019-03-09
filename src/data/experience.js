@@ -3,11 +3,11 @@ export const experience = [
     company:      "F5 Networks",
     title:        "Senior Full-Stack Software Developer",
     startDate:    "2014-10-27T00:00:00Z",
-    endDate:      new Date().toIsoString(),
+    endDate:      new Date().toISOString(),
     description:  "",
     achievements: [
       {
-        description: "Public Speaking: Gave a talk at Twilio's 2018 SIGNAL conference about my team's experience building an online training platform with Twilio Video"
+        description: "Public Speaking: Gave a talk at Twilio's 2018 SIGNAL conference about my team's experience building an online training platform with Twilio Video",
         link: "https://youtube.com/find/the/link",
       },
     ],

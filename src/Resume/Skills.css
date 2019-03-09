@@ -1,0 +1,44 @@
+.Skills {
+  columns: auto 3;
+  width: 100%;
+}
+
+.Skills .Skill {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5em;
+}
+
+.Skills .Skill .name {
+  flex: 1;
+}
+
+.Skills .Skill .ranking {
+  display: flex;
+  align-items: center;
+}
+.Skills .Skill .ranking > * {
+  --circ: 0.75em;
+  border-radius: 50%;
+  border-width: 2px;
+  border-style: solid;
+  height: var(--circ);
+  margin-left: 0.25em;
+  width: var(--circ);
+}
+
+.Skills .Skill .ranking.fresh > * {
+  border-color: var(--green);
+}
+
+.Skills .Skill .ranking.fresh > .level.yes {
+  background-color: var(--green);
+}
+
+.Skills .Skill .ranking.stale > .level.yes {
+  background-color: var(--grey);
+}
+
+.Skills .Skill .ranking.stale > * {
+  border-color: var(--grey);
+}

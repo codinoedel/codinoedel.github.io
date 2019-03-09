@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,900|Playfair+Display:400,900i,900');
 
 body {
-  --black: hsl(0,0%,10%);
+  --black: hsl(0, 0%, 10%);
+  --white: hsl(0, 0%, 100%);
+  --grey:  hsl(0, 0%, 90%);
   --green: hsl(80, 44%, 70%);
-  --white: hsl(0,0%,100%);
   --peach: hsl(20, 80%, 80%);
-  --pink:  hsl(320, 80%, 70%);
+  --pink:  hsl(360, 80%, 80%);
+  --peach-gradient:
+    radial-gradient(circle at 50% 0, hsla(20, 80%, 80%, 0.5), hsla(20, 80%, 80%, 0.7)),
+    radial-gradient(circle at 6.7% 75%, hsla(340, 80%, 75%, 0.5), hsla(340, 80%, 75%, 0.7)),
+    radial-gradient(circle at 93.3% 75%, hsla(280, 80%, 50%, 0.5), hsla(80, 80%, 50%, 0.7));
 
   margin: 0;
   padding: 0;

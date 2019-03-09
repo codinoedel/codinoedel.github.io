@@ -1,9 +1,11 @@
 import React from 'react';
 
-export const Section = ({ heading, children }) => (
-  <section>
-    <h4>{heading}</h4>
-    <div>{children}</div>
+import './Section.css';
+
+export const Section = ({ className, heading, children }) => (
+  <section className="Section">
+    <h3>{heading}</h3>
+    <div className={className}>{children}</div>
   </section>
 );
 

@@ -1,0 +1,25 @@
+section.Section {
+
+}
+
+section.Section h3 {
+  color: var(--pink);
+  display: flex;
+  flex-direction: column;
+}
+
+section.Section h3::before, section.Section h3::after {
+  background: var(--peach-gradient);
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 3px;
+}
+
+section.Section h3::before {
+  margin-bottom: 0.5em;
+}
+
+section.Section h3::after {
+  margin-top: 0.5em;
+}
