@@ -1,0 +1,14 @@
+.Details {
+  width: 100%;
+}
+
+.Details-header {
+  justify-content: space-between;
+  display: flex;
+  border-bottom: solid 3px hsla(0, 0%, 100%, 0.3);
+  border-top: solid 3px hsla(0, 0%, 100%, 0.3);
+}
+
+.Details-bio {
+  padding-top: 1.25rem;
+}

@@ -1,0 +1,28 @@
+.Card {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: calc(var(--app-width) / 2);
+}
+
+.Card > img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.Card > h1 {
+  text-align: center;
+  margin: 0;
+}
+
+.Card-contact {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.Card-contact > *:not(:last-child) {
+  margin-right: 0.5em;
+}
