@@ -1,7 +1,7 @@
 {
   "name": "codinoedel.github.io",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "classnames": "^2.2.6",
     "react": "^16.8.1",
@@ -23,5 +23,10 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "description": "Resume v2, React Edition",
+  "main": "index.js",
+  "repository": "https://github.com/codinoedel/codinoedel.github.io",
+  "author": "Codi Noedel <codi.noedel@gmail.com>",
+  "license": "MIT"
 }
