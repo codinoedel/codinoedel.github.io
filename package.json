@@ -4,16 +4,19 @@
   "private": false,
   "dependencies": {
     "classnames": "^2.2.6",
+    "gh-pages": "^2.0.1",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
     "react-feather": "^1.1.6",
     "react-scripts": "2.1.5"
   },
   "scripts": {
-    "start": "NODE_PATH=src react-scripts start",
     "build": "NODE_PATH=src react-scripts build",
-    "test": "NODE_PATH=src react-scripts test",
-    "eject": "NODE_PATH=src react-scripts eject"
+    "deploy": "NODE_PATH=src gh-pages -d build",
+    "eject": "NODE_PATH=src react-scripts eject",
+    "predeploy": "NODE_PATH=src yarn run build",
+    "start": "NODE_PATH=src react-scripts start",
+    "test": "NODE_PATH=src react-scripts test"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -27,6 +30,7 @@
   "description": "Resume v2, React Edition",
   "main": "index.js",
   "repository": "https://github.com/codinoedel/codinoedel.github.io",
+  "homepage": "https://codinoedel.github.io",
   "author": "Codi Noedel <codi.noedel@gmail.com>",
   "license": "MIT"
 }
