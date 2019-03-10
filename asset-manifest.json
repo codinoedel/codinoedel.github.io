@@ -1,14 +1,14 @@
 {
-  "main.css": "codi.noedel.dev/static/css/main.34ecfa81.chunk.css",
-  "main.js": "codi.noedel.dev/static/js/main.d7dc8095.chunk.js",
-  "main.js.map": "codi.noedel.dev/static/js/main.d7dc8095.chunk.js.map",
-  "runtime~main.js": "codi.noedel.dev/static/js/runtime~main.a3ef14e7.js",
-  "runtime~main.js.map": "codi.noedel.dev/static/js/runtime~main.a3ef14e7.js.map",
-  "static/js/2.c13e2576.chunk.js": "codi.noedel.dev/static/js/2.c13e2576.chunk.js",
-  "static/js/2.c13e2576.chunk.js.map": "codi.noedel.dev/static/js/2.c13e2576.chunk.js.map",
-  "index.html": "codi.noedel.dev/index.html",
-  "precache-manifest.03b4c4b0cd6a52a2ad3b0b20ba669b46.js": "codi.noedel.dev/precache-manifest.03b4c4b0cd6a52a2ad3b0b20ba669b46.js",
-  "service-worker.js": "codi.noedel.dev/service-worker.js",
-  "static/css/main.34ecfa81.chunk.css.map": "codi.noedel.dev/static/css/main.34ecfa81.chunk.css.map",
-  "static/media/codi.jpg": "codi.noedel.dev/static/media/codi.a7e911ee.jpg"
+  "main.css": "/static/css/main.34ecfa81.chunk.css",
+  "main.js": "/static/js/main.d7dc8095.chunk.js",
+  "main.js.map": "/static/js/main.d7dc8095.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.fdfcfda2.js",
+  "runtime~main.js.map": "/static/js/runtime~main.fdfcfda2.js.map",
+  "static/js/2.c13e2576.chunk.js": "/static/js/2.c13e2576.chunk.js",
+  "static/js/2.c13e2576.chunk.js.map": "/static/js/2.c13e2576.chunk.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.5536923624e7497e104c4dd3e8eb81dd.js": "/precache-manifest.5536923624e7497e104c4dd3e8eb81dd.js",
+  "service-worker.js": "/service-worker.js",
+  "static/css/main.34ecfa81.chunk.css.map": "/static/css/main.34ecfa81.chunk.css.map",
+  "static/media/codi.jpg": "/static/media/codi.a7e911ee.jpg"
 }
