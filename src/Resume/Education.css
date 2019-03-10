@@ -1,0 +1,30 @@
+.Education {
+
+}
+
+.Education .school {
+  display: grid;
+  grid-template-areas:
+    "name daterange"
+    "degree degree"
+    "achievements achievements";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: min-content min-content min-content;
+}
+
+.Education .school .name {
+  grid-area: name;
+}
+
+.Education .school .daterange {
+  grid-area: daterange;
+  text-align: right;
+}
+
+.Education .school .degree {
+  grid-area: degree;
+}
+
+.Education .school .achievements {
+  grid-area: achievements;
+}

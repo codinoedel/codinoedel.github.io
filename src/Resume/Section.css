@@ -1,5 +1,5 @@
 section.Section {
-
+  padding: 1em 0;
 }
 
 section.Section h3 {
@@ -22,4 +22,8 @@ section.Section h3::before {
 
 section.Section h3::after {
   margin-top: 0.5em;
+}
+
+section.Section .content {
+  padding: 1em 0;
 }

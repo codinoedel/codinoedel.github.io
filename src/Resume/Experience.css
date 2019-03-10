@@ -1,0 +1,32 @@
+.Experience .company {
+  display: grid;
+  grid-template-areas:
+    "name daterange"
+    "title title"
+    "duties duties"
+    "achievements achievements";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: min-content min-content min-content min-content;
+}
+
+.Experience .company .name {
+  grid-area: name;
+}
+
+.Experience .company .title {
+  grid-area: title;
+}
+
+.Experience .company .daterange {
+  grid-area: daterange;
+  text-align: right;
+}
+
+.Experience .company .duties {
+  grid-area: duties;
+  margin-bottom: 1em;
+}
+
+.Experience .company .achievements {
+  grid-area: achievements;
+}
