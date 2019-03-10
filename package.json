@@ -30,8 +30,8 @@
   ],
   "description": "Resume v2, React Edition",
   "main": "index.js",
-  "repository": "https://github.com/codinoedel/codinoedel.github.io",
-  "homepage": "https://codinoedel.github.io",
+  "repository": "https://github.com/codinoedel/resume",
+  "homepage": "https://codi.noedel.dev",
   "author": "Codi Noedel <codi.noedel@gmail.com>",
   "license": "MIT"
 }
