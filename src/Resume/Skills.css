@@ -43,3 +43,15 @@
 .Skills .Skill .ranking.stale > * {
   border-color: var(--grey);
 }
+
+@media screen and (max-width: 900px) {
+  .Skills {
+    columns: auto 2;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .Skills {
+    columns: auto 1;
+  }
+}

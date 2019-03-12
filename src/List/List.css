@@ -1,7 +1,12 @@
-ul {
-
+ul.List {
+  margin: 0;
+  padding: 1em 0 1em 2em;
 }
 
-ul li {
+ul.List li {
+  margin-bottom: 0.5em;
+}
 
+ul.List li p {
+  margin: 0;
 }

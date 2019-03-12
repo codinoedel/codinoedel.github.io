@@ -1,0 +1,9 @@
+.Resume {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 900px) {
+  .Resume {
+    padding: 0 1em;
+  }
+}

@@ -26,3 +26,9 @@
 .Card-contact > *:not(:last-child) {
   margin-right: 0.5em;
 }
+
+@media screen and (max-width: 900px) {
+  .Card {
+    width: 100vw;
+  }
+}

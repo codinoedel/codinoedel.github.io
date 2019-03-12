@@ -3,6 +3,7 @@
     radial-gradient(circle at 50% 0, hsla(20, 80%, 80%, 0.5), hsla(20, 80%, 80%, 0.7)),
     radial-gradient(circle at 6.7% 75%, hsla(340, 80%, 75%, 0.5), hsla(340, 80%, 75%, 0.7)),
     radial-gradient(circle at 93.3% 75%, hsla(280, 80%, 50%, 0.5), hsla(80, 80%, 50%, 0.7));
+  box-sizing: border-box;
   color: white;
   display: flex;
   justify-content: center;
@@ -10,20 +11,27 @@
 }
 
 .Banner-content {
+  align-items: center;
   box-sizing: border-box;
   display: flex;
   grid-area: content;
   width: var(--app-width);
 }
 
-@media screen and (max-width: 900px) {
-  .Banner-content {
-    flex-direction: column;
-    align-items: center;
-    padding: 0 1em;
-  }
+.Banner-content > * {
+  box-sizing: border-box;
+  padding: 1em 0 1em 1em;
 }
 
-.Banner-content > * {
-  padding: 1em;
+@media screen and (max-width: 900px) {
+  .Banner-content {
+    align-items: center;
+    box-sizing: border-box;
+    flex-direction: column;
+    padding: 0 1em;
+  }
+
+  .Banner-content > * {
+    padding: 1em;
+  }
 }

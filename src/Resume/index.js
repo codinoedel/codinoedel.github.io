@@ -5,8 +5,10 @@ import Education from './Education';
 import Experience from './Experience';
 import Skills from './Skills';
 
+import './Resume.css';
+
 export const Resume = ({ className }) => (
-  <div className={classnames(className)}>
+  <div className={classnames('Resume', className)}>
     <Experience />
     <Skills />
     <Education />

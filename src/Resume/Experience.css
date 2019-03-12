@@ -17,6 +17,14 @@
   grid-area: title;
 }
 
+.Experience .company:not(:first-child) .name, .Experience .company:not(:first-child) .daterange {
+  margin: 1em 0 0 0;
+}
+
+.Experience .company .title {
+  margin: 0 0 1em 0;
+}
+
 .Experience .company .daterange {
   grid-area: daterange;
   text-align: right;
@@ -24,9 +32,31 @@
 
 .Experience .company .duties {
   grid-area: duties;
-  margin-bottom: 1em;
+  margin: 0;
 }
 
 .Experience .company .achievements {
   grid-area: achievements;
+}
+
+@media screen and (max-width: 600px) {
+  .Experience .company {
+    grid-template-areas:
+      "name"
+      "title"
+      "daterange"
+      "duties"
+      "achievements";
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content;
+  }
+
+  .Experience .company:not(:first-child) .daterange, .Experience .company .title {
+    margin: 0;
+  }
+
+  .Experience .company:not(:first-child) .daterange, .Experience .company .daterange {
+    margin: 0 0 1em 0;
+    text-align: left;
+  }
 }
