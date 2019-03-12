@@ -13,7 +13,7 @@
   },
   "scripts": {
     "build": "NODE_PATH=src react-scripts build",
-    "deploy": "NODE_PATH=src gh-pages -d build",
+    "deploy": "NODE_PATH=src gh-pages -d build --remove '!CNAME'",
     "eject": "NODE_PATH=src react-scripts eject",
     "predeploy": "NODE_PATH=src yarn run build",
     "start": "NODE_PATH=src react-scripts start",
