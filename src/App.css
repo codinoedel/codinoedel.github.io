@@ -9,12 +9,6 @@
   height: 100vh;
 }
 
-@media screen and (max-width: var(--app-width)) {
-  .App-banner, .App-resume {
-    width: 100vw;
-  }
-}
-
 .App-banner {
   grid-area: banner;
   width: 100vw;
@@ -23,4 +17,10 @@
 .App-resume {
   grid-area: resume;
   width: var(--app-width);
+}
+
+@media screen and (max-width: 900px) {
+  .App-resume {
+    width: 100vw;
+  }
 }
