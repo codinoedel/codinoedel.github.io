@@ -25,11 +25,18 @@ const SERVICES  = 'Services';
 export const skills = [
   // Languages
   {
-    name:       'Javascript (ES6+, TypeScript)',
+    name:       'Javascript',
     category:   LANGUAGES,
     freshness:  FRESH,
     importance: HIGH,
     level:      EXPERT,
+  },
+  {
+    name:       'Typescript',
+    category:   LANGUAGES,
+    freshness:  STALE,
+    importance: HIGH,
+    level:      BEGINNER,
   },
   {
     name:       'HTML',
@@ -81,7 +88,7 @@ export const skills = [
     level:      INTERMEDIATE,
   },
   {
-    name:       'SQL (MSSQL, MySQL, PostGres)',
+    name:       'SQL (PostGres)',
     category:   LANGUAGES,
     freshness:  STALE,
     importance: LOW,

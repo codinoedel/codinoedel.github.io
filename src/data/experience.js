@@ -6,7 +6,7 @@ export const experience = [
     duties:       "I am part of a team that develops and maintains a virtual environment orchestration platform designed to help F5 staff show off the capabilities of F5's products. I've been part of this team since the system was a prototype and developed it through prototype, in-house datacenter, and into AWS/Ravello.",
     achievements: [
       {
-        value:    "Public Speaking: Gave a talk at Twilio's 2018 SIGNAL conference about my team's experience building an online training platform with Twilio Video",
+        value:    "Presented at Twilio's 2018 SIGNAL conference on the topic of my team's experience building an online training platform with Twilio Video",
         resource: "https://www.youtube.com/watch?v=cjX_lwqvN68&t=4s",
       },
     ],
