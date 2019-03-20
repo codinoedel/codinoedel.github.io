@@ -3,9 +3,12 @@ import classnames from 'classnames';
 
 import './Section.css';
 
-export const Section = ({ className, heading, children }) => (
+export const Section = ({ className, heading, secondaryHeading, children }) => (
   <section className="Section">
-    <h3>{heading}</h3>
+    <div className="Heading">
+      <h3>{heading}</h3>
+      <div>{ secondaryHeading ? secondaryHeading : null }</div>
+    </div>
     <div className={classnames('content', className)}>{children}</div>
   </section>
 );

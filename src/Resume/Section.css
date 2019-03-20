@@ -2,13 +2,17 @@ section.Section {
   padding: 1em 0;
 }
 
-section.Section h3 {
-  color: var(--pink);
-  display: flex;
-  flex-direction: column;
+section.Section .Heading {
+  display: grid;
+  grid-template-areas:
+    "topborder topborder"
+    "heading secondary"
+    "bottomborder bottomborder";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: min-content min-content min-content;
 }
 
-section.Section h3::before, section.Section h3::after {
+section.Section .Heading::before, section.Section .Heading::after {
   background: var(--peach-gradient);
   content: '';
   display: inline-block;
@@ -16,12 +20,25 @@ section.Section h3::before, section.Section h3::after {
   height: 3px;
 }
 
-section.Section h3::before {
+section.Section .Heading::before {
+  grid-area: topborder;
   margin-bottom: 0.5em;
 }
 
-section.Section h3::after {
+section.Section .Heading::after {
+  grid-area: bottomborder;
   margin-top: 0.5em;
+}
+
+section.Section .Heading > h3 {
+  color: var(--pink);
+  grid-area: heading;
+}
+
+section.Section .Heading > div {
+  grid-area: secondary;
+  display: flex;
+  justify-content: flex-end;
 }
 
 section.Section .content {

@@ -7,6 +7,13 @@ import skills, { SKILL_LEVELS } from 'data/skills';
 
 import './Skills.css';
 
+const Legend = () => (
+  <div className="Legend">
+    <span className="Fresh">Fresh</span>
+    <span className="Stale">Inactive</span>
+  </div>
+);
+
 const Skill = ({ name, level, freshness }) => (
   <div className='Skill'>
     <div className='name'>{name}</div>
@@ -19,7 +26,7 @@ const Skill = ({ name, level, freshness }) => (
 );
 
 export const Skills = () => (
-  <Section heading='Skills' className='Skills'>
+  <Section heading='Skills' className='Skills' secondaryHeading={<Legend />}>
     { skills.map((s) => <Skill name={s.name} level={s.level} freshness={s.freshness} key={s.name} />) }
   </Section>
 );
