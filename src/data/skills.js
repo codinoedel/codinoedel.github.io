@@ -125,6 +125,13 @@ export const skills = [
     level:      EXPERT,
   },
   {
+    name:       'Jest',
+    category:   LIBRARIES,
+    freshness:  FRESH,
+    importance: MEDIUM,
+    level:      INTERMEDIATE,
+  },
+  {
     name:       'AWS JavaScript SDK',
     category:   LIBRARIES,
     freshness:  FRESH,
@@ -163,6 +170,13 @@ export const skills = [
     freshness:  FRESH,
   },
   {
+    name:       'AWS: Lambda',
+    category:   SERVICES,
+    level:      INTERMEDIATE,
+    importance: LOW,
+    freshness:  FRESH,
+  },
+  {
     name:       'AWS: DynamoDB',
     category:   SERVICES,
     freshness:  FRESH,
@@ -174,14 +188,14 @@ export const skills = [
     category:   SERVICES,
     freshness:  FRESH,
     level:      EXPERT,
-    importance: HIGH,
+    importance: MEDIUM,
   },
   {
     name:       'Twilio Chat',
     category:   SERVICES,
     freshness:  FRESH,
     level:      EXPERT,
-    importance: HIGH,
+    importance: LOW,
   },
 
   // Tools
@@ -196,8 +210,8 @@ export const skills = [
     name:       'Visual Studio',
     category:   TOOLS,
     freshness:  STALE,
-    importance: HIGH,
-    level:      EXPERT
+    importance: LOW,
+    level:      INTERMEDIATE,
   },
 ];
 
