@@ -1,6 +1,7 @@
 .Skills {
   columns: auto 3;
   width: 100%;
+  column-gap: 2em;
 }
 
 .Skills .Skill {
@@ -15,9 +16,10 @@
 }
 
 .Skills .Skill .ranking {
-  display: flex;
   align-items: center;
+  display: flex;
 }
+
 .Skills .Skill .ranking > *, .Legend > *::before {
   --circ: 0.75em;
   border-radius: 50%;
@@ -32,7 +34,7 @@
   border-color: var(--green);
 }
 
-.Skills .Skill .ranking > .level.yes {
+.Skills .Skill .ranking > .level.yes, .Legend > *::before {
   border-width: 0.5em;
   box-sizing: border-box;
 }
@@ -75,7 +77,7 @@
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
   .Skills {
     columns: auto 1;
   }
