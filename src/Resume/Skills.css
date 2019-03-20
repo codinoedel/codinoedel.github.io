@@ -18,7 +18,7 @@
   display: flex;
   align-items: center;
 }
-.Skills .Skill .ranking > * {
+.Skills .Skill .ranking > *, .Legend > *::before {
   --circ: 0.75em;
   border-radius: 50%;
   border-width: 2px;
@@ -38,6 +38,34 @@
 }
 
 .Skills .Skill .ranking.stale > * {
+  border-color: var(--grey);
+}
+
+.Legend {
+  align-items: center;
+  display: inline-flex;
+}
+
+.Legend > * {
+  align-items: center;
+  display: inline-flex;
+}
+
+.Legend > *:not(:last-child) {
+  margin-right: 0.5em;
+}
+
+.Legend *::before {
+  content: '';
+  display: inline-block;
+  margin-right: 0.5em;
+}
+
+.Legend .Fresh::before {
+  border-color: var(--green);
+}
+
+.Legend .Stale::before {
   border-color: var(--grey);
 }
 
