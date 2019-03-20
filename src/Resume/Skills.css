@@ -32,12 +32,9 @@
   border-color: var(--green);
 }
 
-.Skills .Skill .ranking.fresh > .level.yes {
-  background-color: var(--green);
-}
-
-.Skills .Skill .ranking.stale > .level.yes {
-  background-color: var(--grey);
+.Skills .Skill .ranking > .level.yes {
+  border-width: 0.5em;
+  box-sizing: border-box;
 }
 
 .Skills .Skill .ranking.stale > * {

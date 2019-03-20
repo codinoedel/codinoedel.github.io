@@ -27,3 +27,10 @@ section.Section h3::after {
 section.Section .content {
   padding: 1em 0;
 }
+
+@media print {
+  section.Section h3::before, section.Section h3::after {
+    border-bottom: solid 3px var(--pink);
+    height: 0;
+  }
+}

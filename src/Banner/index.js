@@ -8,7 +8,6 @@ import './Banner.css';
 
 export const Banner = ({ className }) => (
   <div className={classnames(className, "Banner")}>
-    <header> </header>
     <div className="Banner-content">
       <Card />
       <Details />

@@ -13,3 +13,14 @@
 .Contact > :first-child {
   margin-right: 0.5em;
 }
+
+@media print {
+  .Contact {
+    border: solid 1px var(--green);
+    box-shadow: none;
+  }
+
+  .Contact * {
+    color: var(--green);
+  }
+}
