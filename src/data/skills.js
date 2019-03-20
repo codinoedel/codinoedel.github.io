@@ -145,14 +145,6 @@ export const skills = [
     importance: MEDIUM,
     level:      EXPERT,
   },
-  {
-    name:       'ASP.NET',
-    category:   LIBRARIES,
-    freshness:  STALE,
-    importance: LOW,
-    level:      BEGINNER,
-  },
-
 
   // Services
   {
