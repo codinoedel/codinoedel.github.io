@@ -46,8 +46,8 @@ section.Section .content {
 }
 
 @media print {
-  section.Section h3::before, section.Section h3::after {
+  section.Section .Heading::before, section.Section .Heading::after {
     border-bottom: solid 3px var(--pink);
-    height: 0;
+    height: 3px;
   }
 }

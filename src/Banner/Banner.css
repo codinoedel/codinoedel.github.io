@@ -11,7 +11,7 @@
 }
 
 .Banner-content {
-  align-items: center;
+  align-items: flex-start;
   box-sizing: border-box;
   display: flex;
   grid-area: content;
@@ -24,6 +24,10 @@
 }
 
 @media screen and (max-width: 900px) {
+  .Banner {
+    padding: 0;
+  }
+
   .Banner-content {
     align-items: center;
     box-sizing: border-box;

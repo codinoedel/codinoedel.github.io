@@ -8,7 +8,8 @@ import BasicInfo from 'data/basicinfo';
 export const Codepen = () => (
   <Contact
     icon={<CodepenIcon />}
-    label={BasicInfo.codepen}
+    label='Codepen'
+    username={BasicInfo.codepen}
     url={`https://codepen.io/${BasicInfo.codepen}`}
   />
 );

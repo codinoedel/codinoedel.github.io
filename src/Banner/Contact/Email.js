@@ -8,7 +8,8 @@ import BasicInfo from 'data/basicinfo';
 export const Email = () => (
   <Contact
     icon={<MailIcon />}
-    label={BasicInfo.email}
+    label='Email'
+    username={BasicInfo.email}
     url={`mailto:${BasicInfo.email}`}
   />
 );

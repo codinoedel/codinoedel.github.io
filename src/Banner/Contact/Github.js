@@ -8,7 +8,8 @@ import BasicInfo from 'data/basicinfo';
 export const Github = () => (
   <Contact
     icon={<GithubIcon />}
-    label={BasicInfo.github}
+    label='Github'
+    username={BasicInfo.github}
     url={`https://github.com/${BasicInfo.github}`}
   />
 );

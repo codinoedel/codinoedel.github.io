@@ -5,7 +5,7 @@ export const basicinfo = {
   location: 'Edmonds, WA',
   name:     'Codi Noedel',
   title:    'Senior Full-Stack Software Engineer',
-  bio:  "Codi is a Software Engineer on the Unified Demonstration Framework team at F5 Networks, where she builds tools and automation frameworks to more effectively distribute technical content. She’s passionate about product design and ensuring that teams have tools that delight them and empower them to solve the challenges at hand. In her free time, she plays video games, reads books, builds web apps, and spends time with her family.",
+  bio:  "Codi is a Software Engineer currently working on the Unified Demonstration Framework team at F5 Networks, where she builds tools and automation frameworks to more effectively distribute technical content. She’s passionate about designing and building products that delight and empower people. As a full-stack developer, she feels at home in both architecting complex systems and robust, user-focused web clients.\n\nIn her free time, she plays video games, reads a lot of books, builds web apps, and spends time with her friends and family. ",
 };
 
 export default basicinfo;
