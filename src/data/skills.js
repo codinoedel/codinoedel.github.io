@@ -132,6 +132,20 @@ export const skills = [
     level:      INTERMEDIATE,
   },
   {
+    name:       'Mocking: API Blueprint',
+    category:   LIBRARIES,
+    freshness:  STALE,
+    importance: LOW,
+    level:      INTERMEDIATE,
+  },
+  {
+    name:       'Mocking: Nock',
+    category:   LIBRARIES,
+    freshness:  FRESH,
+    importance: LOW,
+    level:      INTERMEDIATE,
+  },
+  {
     name:       'AWS JavaScript SDK',
     category:   LIBRARIES,
     freshness:  FRESH,

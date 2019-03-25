@@ -11,8 +11,17 @@
 }
 
 .Skills .Skill .name {
+  display: flex;
   flex: 1;
-  color: var(--black);
+}
+
+.Skills .Skill .name::after {
+  border-bottom: dotted 1px var(--grey);
+  box-sizing: border-box;
+  content: '';
+  display: inline-block;
+  flex: 1;
+  margin: 0 0.5em 0.15em 0.5em;
 }
 
 .Skills .Skill .ranking {
@@ -77,7 +86,7 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 615px) {
   .Skills {
     columns: auto 1;
   }
