@@ -2,9 +2,10 @@
   align-items: center;
   box-sizing: border-box;
   display: flex;
+  flex-basis: calc(2 * var(--app-width) / 5);
   flex-direction: column;
+  flex-shrink: 0;
   justify-content: center;
-  width: calc(var(--app-width) / 2);
 }
 
 .Card > img {
@@ -19,12 +20,22 @@
 
 .Card-contact {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   width: 100%;
 }
 
+.Card-contact > * {
+  flex: 1;
+  margin-bottom: 0.5em;
+}
+
 .Card-contact > *:not(:last-child) {
   margin-right: 0.5em;
+}
+
+.Card-contact > *:nth-child(2) {
+  margin-right: 0;
 }
 
 @media screen and (max-width: 900px) {

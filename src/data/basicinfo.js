@@ -1,6 +1,7 @@
 export const basicinfo = {
+  codepen:  'codi',
   email:    'codi.noedel@gmail.com',
-  github:   'codifiman',
+  github:   'codinoedel',
   location: 'Edmonds, WA',
   name:     'Codi Noedel',
   title:    'Senior Full-Stack Software Engineer',

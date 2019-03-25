@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Email, Github } from './Contact';
+import { Codepen, Email, Github } from './Contact';
 
 import BasicInfo from 'data/basicinfo';
 
@@ -13,6 +13,7 @@ export const Card = () => (
     <h1>{BasicInfo.name}</h1>
     <div className="Card-contact">
       <Github />
+      <Codepen />
       <Email />
     </div>
   </div>
