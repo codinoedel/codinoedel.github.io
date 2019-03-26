@@ -7,6 +7,8 @@ ul.List li {
   margin-bottom: 0.5em;
 }
 
-ul.List li p {
-  margin: 0;
+ul.List li *:not(:last-child) {
+  border-right: solid 1px var(--grey);
+  margin-right: 0.5em;
+  padding-right: 0.5em;
 }

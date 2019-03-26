@@ -7,7 +7,7 @@ export const List = ({ className, items }) => (
   <ul className={classnames('List', className)}>
     { items.map((i, idx) => (
       <li key={idx}>
-        <p>{i.value}</p>
+        <span>{i.value}</span>
         { i.resource ? <a href={i.resource}>{i.resource}</a> : null }
       </li>
     )) }

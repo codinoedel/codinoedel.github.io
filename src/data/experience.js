@@ -3,7 +3,7 @@ export const experience = [
     company:      "F5 Networks",
     title:        "Senior Full-Stack Software Developer",
     startDate:    "2014-10-27T00:00:00Z",
-    duties:       "I am part of a team that develops and maintains a virtual environment orchestration platform designed to help F5 staff show off the capabilities of F5's products. I've been part of this team since the system was a prototype and developed it through prototype, in-house datacenter, and into AWS/Ravello.",
+    duties:       "I am part of a small team that develops and maintains a virtual environment orchestration platform designed to help F5 staff show off the capabilities of F5's products. I've been part of this team since the system was a prototype and developed it through prototype, in-house datacenter, and into a multi-cloud orchestrator. We also provide specialized UI for remote training and meetings, which includes video, voice, and chat.",
     achievements: [
       {
         value:    "Presented at Twilio's 2018 SIGNAL conference on the topic of my team's experience building an online training platform with Twilio Video",
