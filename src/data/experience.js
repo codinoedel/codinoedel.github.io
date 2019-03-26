@@ -7,7 +7,7 @@ export const experience = [
     achievements: [
       {
         value:    "Presented at Twilio's 2018 SIGNAL conference on the topic of my team's experience building an online training platform with Twilio Video",
-        resource: "https://www.youtube.com/watch?v=cjX_lwqvN68&t=4s",
+        resource: "https://www.youtube.com/watch?v=cjX_lwqvN68",
       },
     ],
   },
