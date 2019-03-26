@@ -40,6 +40,10 @@ h5 {
   font-weight: 400;
 }
 
+h6 {
+  font-size: 0.8rem;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
