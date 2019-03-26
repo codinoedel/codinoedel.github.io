@@ -14,8 +14,9 @@
 }
 
 .Card > h1 {
+  line-height: 0.9em;
+  margin: 0 0 0.5rem 0;
   text-align: center;
-  margin: 0;
 }
 
 .Card-contact {
@@ -41,6 +42,10 @@
 @media screen and (max-width: 900px) {
   .Card {
     width: 100vw;
+  }
+
+  .Card-contact > *:nth-child(2) {
+    margin-right: 0.5em;
   }
 }
 

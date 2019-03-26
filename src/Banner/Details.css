@@ -26,6 +26,10 @@
     border-color: var(--pink);
   }
 
+  .Details-header > h3 {
+    color: var(--pink);
+  }
+
   .Details, .Details > * {
     color: var(--black);
   }
