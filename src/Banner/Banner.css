@@ -40,3 +40,9 @@
     padding: 1em;
   }
 }
+
+@media print {
+  .Banner-content {
+    width: 100vw;
+  }
+}

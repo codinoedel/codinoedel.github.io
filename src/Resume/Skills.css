@@ -91,3 +91,9 @@
     columns: auto 1;
   }
 }
+
+@media print {
+  .Skills {
+    columns: auto 3;
+  }
+}

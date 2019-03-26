@@ -24,3 +24,9 @@
     width: 100vw;
   }
 }
+
+@media print {
+  .App-resume {
+    width: 100vw;
+  }
+}

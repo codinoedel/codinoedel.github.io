@@ -23,11 +23,11 @@
 
 @media print {
   .Details-header {
-    border-color: var(--pink);
+    border-color: var(--green);
   }
 
   .Details-header > h3 {
-    color: var(--pink);
+    color: var(--olive);
   }
 
   .Details, .Details > * {

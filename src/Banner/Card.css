@@ -52,5 +52,15 @@
 @media print {
   .Card {
     color: var(--black);
+    flex-basis: 50vw;
+  }
+
+  .Card > h1 {
+    line-height: 1.2em;
+    margin: 0.3em 0;
+  }
+
+  .Card-contact > *:nth-child(2) {
+    margin-right: 0.5em;
   }
 }

@@ -47,7 +47,11 @@ section.Section .content {
 
 @media print {
   section.Section .Heading::before, section.Section .Heading::after {
-    border-bottom: solid 3px var(--pink);
+    border-bottom: solid 3px var(--green);
     height: 3px;
+  }
+
+  section.Section .Heading > h3 {
+    color: var(--olive);
   }
 }
