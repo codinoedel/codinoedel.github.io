@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,900|Playfair+Display:400,900');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,900|Playfair+Display:400,700,900');
 
 body {
   --black: hsl(0, 0%, 10%);
@@ -27,20 +27,31 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display";
-  font-weight: 900;
+  font-weight: 700;
   margin: 0;
 }
 
 h1 {
   font-size: 3.5rem;
+  font-weight: 900;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+
+h4 {
+  font-size: 1.2rem;
 }
 
 h5 {
   font-weight: 400;
+  font-size: 0.9rem;
 }
 
 h6 {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 code {
