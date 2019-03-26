@@ -67,13 +67,6 @@ export const skills = [
     level:      INTERMEDIATE,
   },
   {
-    name:       'Python',
-    category:   LANGUAGES,
-    freshness:  STALE,
-    importance: MEDIUM,
-    level:      INTERMEDIATE,
-  },
-  {
     name:       'C++',
     category:   LANGUAGES,
     freshness:  STALE,
@@ -82,6 +75,13 @@ export const skills = [
   },
   {
     name:       'C',
+    category:   LANGUAGES,
+    freshness:  STALE,
+    importance: MEDIUM,
+    level:      INTERMEDIATE,
+  },
+  {
+    name:       'Python',
     category:   LANGUAGES,
     freshness:  STALE,
     importance: MEDIUM,
@@ -162,14 +162,7 @@ export const skills = [
 
   // Services
   {
-    name:       'AWS: SWF',
-    category:   SERVICES,
-    level:      EXPERT,
-    importance: HIGH,
-    freshness:  FRESH,
-  },
-  {
-    name:       'AWS: EC2',
+    name:       'AWS: EC2, SWF',
     category:   SERVICES,
     level:      EXPERT,
     importance: HIGH,
@@ -190,20 +183,12 @@ export const skills = [
     importance: HIGH,
   },
   {
-    name:       'Twilio Video',
+    name:       'Twilio Video & Chat',
     category:   SERVICES,
     freshness:  FRESH,
     level:      EXPERT,
     importance: MEDIUM,
   },
-  {
-    name:       'Twilio Chat',
-    category:   SERVICES,
-    freshness:  FRESH,
-    level:      EXPERT,
-    importance: LOW,
-  },
-
   // Tools
   {
     name:       'Vim',
@@ -211,13 +196,6 @@ export const skills = [
     freshness:  FRESH,
     level:      INTERMEDIATE,
     importance: HIGH,
-  },
-  {
-    name:       'Visual Studio',
-    category:   TOOLS,
-    freshness:  STALE,
-    importance: LOW,
-    level:      INTERMEDIATE,
   },
 ];
 
