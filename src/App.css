@@ -1,5 +1,6 @@
 .App {
   --app-width: 900px;
+  --print-width: 100vw;
   display: grid;
   grid-template-areas:
     "banner banner banner"
@@ -11,7 +12,7 @@
 
 .App-banner {
   grid-area: banner;
-  width: 100vw;
+  width: 100%;
 }
 
 .App-resume {
@@ -20,13 +21,13 @@
 }
 
 @media screen and (max-width: 900px) {
-  .App-resume {
-    width: 100vw;
+  .App {
+    --app-width: 100vw;
   }
 }
 
 @media print {
   .App-resume {
-    width: 100vw;
+    width: var(--print-width);
   }
 }

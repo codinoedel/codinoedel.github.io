@@ -33,7 +33,7 @@
     align-items: center;
     box-sizing: border-box;
     flex-direction: column;
-    padding: 0 1em;
+    padding: 0 1em 1em 1em;
   }
 
   .Banner-content > * {
@@ -43,6 +43,6 @@
 
 @media print {
   .Banner-content {
-    width: 100vw;
+    width: var(--print-width);
   }
 }
