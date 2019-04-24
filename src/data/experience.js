@@ -14,8 +14,8 @@ export const experience = [
   {
     company:   "Explore Consulting",
     title:     "Technical Consultant",
-    startDate: "2013-07-01T00:00:00Z",
-    endDate:   "2014-09-03T00:00:00Z",
+    startDate: "2013-08-14T00:00:00Z",
+    endDate:   "2014-10-03T00:00:00Z",
     duties:    "As a consultant, I worked on dozens of projects of varying sizes, most notably two ASP.NET applications: one that allows sports teams to chronicle their use of sponsor money and another that helped the NFL Scouting Combine track players' availability for informal interview.",
   },
   {
