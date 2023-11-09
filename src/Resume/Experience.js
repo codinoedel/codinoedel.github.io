@@ -2,9 +2,9 @@ import React from 'react';
 import { format } from 'date-fns';
 
 import Section from './Section';
-import List from 'List';
+import List from '../List';
 
-import experience from 'data/experience';
+import experience from '../data/experience';
 
 import './Experience.css';
 

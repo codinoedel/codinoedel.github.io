@@ -1,10 +1,10 @@
 import React from 'react';
 import { format } from 'date-fns';
 
-import List from 'List';
+import List from '../List';
 import Section from './Section';
 
-import education from 'data/education';
+import education from '../data/education';
 
 import './Education.css';
 

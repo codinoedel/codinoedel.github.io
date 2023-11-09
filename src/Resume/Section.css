@@ -13,7 +13,7 @@ section.Section .Heading {
 }
 
 section.Section .Heading::before, section.Section .Heading::after {
-  background: var(--peach-gradient);
+  background: var(--green);
   content: '';
   display: inline-block;
   width: 100%;
@@ -31,7 +31,7 @@ section.Section .Heading::after {
 }
 
 section.Section .Heading > h3 {
-  color: var(--pink);
+  color: var(--light-red);
   grid-area: heading;
 }
 
@@ -47,11 +47,11 @@ section.Section .content {
 
 @media print {
   section.Section .Heading::before, section.Section .Heading::after {
-    border-bottom: solid 3px var(--green);
+    border-bottom: solid 3px var(--light-red);
     height: 3px;
   }
 
   section.Section .Heading > h3 {
-    color: var(--olive);
+    color: var(--red);
   }
 }

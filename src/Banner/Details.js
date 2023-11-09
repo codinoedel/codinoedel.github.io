@@ -1,6 +1,6 @@
 import React from 'react';
 
-import BasicInfo from 'data/basicinfo';
+import BasicInfo from '../data/basicinfo';
 
 import './Details.css';
 

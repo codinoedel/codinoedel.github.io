@@ -3,7 +3,7 @@ import React from 'react';
 import GithubIcon from 'react-feather/dist/icons/github';
 
 import Contact from './Contact';
-import BasicInfo from 'data/basicinfo';
+import BasicInfo from '../../data/basicinfo';
 
 export const Github = () => (
   <Contact

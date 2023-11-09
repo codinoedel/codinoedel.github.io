@@ -1,8 +1,8 @@
 .Banner {
   background:
-    radial-gradient(circle at 50% 0, hsla(20, 80%, 80%, 0.5), hsla(20, 80%, 80%, 0.7)),
-    radial-gradient(circle at 6.7% 75%, hsla(340, 80%, 75%, 0.5), hsla(340, 80%, 75%, 0.7)),
-    radial-gradient(circle at 93.3% 75%, hsla(280, 80%, 50%, 0.5), hsla(80, 80%, 50%, 0.7));
+    radial-gradient(circle at 50% 0, hsla(145, 80%, 40%, 0.5), hsla(145, 80%, 30%, 0.7)),
+    radial-gradient(circle at 6.7% 75%, hsla(180, 80%, 40%, 0.5), hsla(180, 80%, 40%, 0.7)),
+    radial-gradient(circle at 93.3% 75%, hsla(200, 80%, 30%, 0.5), hsla(200, 80%, 30%, 0.7));
   box-sizing: border-box;
   color: white;
   display: flex;

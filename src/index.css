@@ -4,11 +4,13 @@ body {
   --black: hsl(0, 0%, 10%);
   --white: hsl(0, 0%, 100%);
   --grey:  hsl(0, 0%, 90%);
-  --green: hsl(80, 44%, 70%);
+  --green: hsl(150, 44%, 70%);
   --peach: hsl(20, 80%, 80%);
   --pink:  hsl(360, 80%, 80%);
   --teal:  hsl(171, 100%, 31%);
   --olive: hsl(82, 97%, 26%);
+  --light-red: hsl(5, 75%, 69%);
+  --red:   hsl(5, 75%, 56%);
 
   --peach-gradient:
     radial-gradient(circle at 50% 0, hsla(20, 80%, 80%, 0.5), hsla(20, 80%, 80%, 0.7)),
@@ -32,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 900;
 }
 

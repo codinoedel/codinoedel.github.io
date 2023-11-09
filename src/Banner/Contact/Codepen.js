@@ -3,7 +3,7 @@ import React from 'react';
 import CodepenIcon from 'react-feather/dist/icons/codepen';
 
 import Contact from './Contact';
-import BasicInfo from 'data/basicinfo';
+import BasicInfo from '../../data/basicinfo';
 
 export const Codepen = () => (
   <Contact

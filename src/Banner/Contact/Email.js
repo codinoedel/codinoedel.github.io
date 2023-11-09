@@ -3,7 +3,7 @@ import React from 'react';
 import MailIcon from 'react-feather/dist/icons/mail';
 
 import Contact from './Contact';
-import BasicInfo from 'data/basicinfo';
+import BasicInfo from '../../data/basicinfo';
 
 export const Email = () => (
   <Contact

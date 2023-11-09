@@ -1,6 +1,6 @@
 .Contact {
   align-items: center;
-  background-color: var(--green);
+  background-color: var(--red);
   border-radius: 0.2rem;
   box-shadow: 0px 2px 4px 0px hsla(0,0%,0%,0.2);
   box-sizing: border-box;
@@ -34,11 +34,11 @@
 
 @media print {
   .Contact {
-    border: solid 1px var(--green);
+    border: solid 1px var(--red);
     box-shadow: none;
   }
 
   .Contact * {
-    color: var(--olive);
+    color: var(--red);
   }
 }

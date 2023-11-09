@@ -3,7 +3,7 @@ import classnames from 'classnames';
 
 import Section from './Section';
 
-import skills, { SKILL_LEVELS } from 'data/skills';
+import skills, { SKILL_LEVELS } from '../data/skills';
 
 import './Skills.css';
 

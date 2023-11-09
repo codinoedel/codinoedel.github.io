@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Codepen, Email, Github } from './Contact';
 
-import BasicInfo from 'data/basicinfo';
+import BasicInfo from '../data/basicinfo';
 
 import codi from './codi.jpg';
 import './Card.css';

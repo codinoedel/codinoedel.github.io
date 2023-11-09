@@ -34,9 +34,9 @@ export const skills = [
   {
     name:       'Typescript',
     category:   LANGUAGES,
-    freshness:  STALE,
+    freshness:  FRESH,
     importance: HIGH,
-    level:      BEGINNER,
+    level:      INTERMEDIATE,
   },
   {
     name:       'HTML',
@@ -84,11 +84,11 @@ export const skills = [
     name:       'Python',
     category:   LANGUAGES,
     freshness:  STALE,
-    importance: MEDIUM,
+    importance: LOW,
     level:      INTERMEDIATE,
   },
   {
-    name:       'SQL (PostGres)',
+    name:       'SQL (PostGres, MySQL)',
     category:   LANGUAGES,
     freshness:  STALE,
     importance: LOW,
@@ -111,11 +111,11 @@ export const skills = [
     level:      EXPERT,
   },
   {
-    name:       'Angular 2',
+    name:       'Angular 1/2',
     category:   LIBRARIES,
     freshness:  STALE,
-    importance: HIGH,
-    level:      BEGINNER,
+    importance: MEDIUM,
+    level:      INTERMEDIATE,
   },
   {
     name:       'Node.js',
@@ -132,37 +132,23 @@ export const skills = [
     level:      INTERMEDIATE,
   },
   {
-    name:       'Mocking: API Blueprint',
-    category:   LIBRARIES,
-    freshness:  STALE,
-    importance: LOW,
-    level:      INTERMEDIATE,
-  },
-  {
-    name:       'Mocking: Nock',
-    category:   LIBRARIES,
-    freshness:  FRESH,
-    importance: LOW,
-    level:      INTERMEDIATE,
-  },
-  {
     name:       'AWS JavaScript SDK',
     category:   LIBRARIES,
-    freshness:  FRESH,
+    freshness:  STALE,
     importance: MEDIUM,
     level:      EXPERT,
   },
   {
     name:       'Twilio JavaScript SDK',
     category:   LIBRARIES,
-    freshness:  FRESH,
+    freshness:  STALE,
     importance: MEDIUM,
     level:      EXPERT,
   },
 
   // Services
   {
-    name:       'AWS: EC2, SWF',
+    name:       'AWS: EC2',
     category:   SERVICES,
     level:      EXPERT,
     importance: HIGH,
@@ -172,7 +158,7 @@ export const skills = [
     name:       'AWS: Lambda',
     category:   SERVICES,
     level:      INTERMEDIATE,
-    importance: LOW,
+    importance: HIGH,
     freshness:  FRESH,
   },
   {
@@ -185,7 +171,7 @@ export const skills = [
   {
     name:       'Twilio Video & Chat',
     category:   SERVICES,
-    freshness:  FRESH,
+    freshness:  STALE,
     level:      EXPERT,
     importance: MEDIUM,
   },
